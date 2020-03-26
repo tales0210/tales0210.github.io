@@ -4,10 +4,6 @@ title: "Elastic APM, Elasticsearch"
 author: "HJ Lee"
 ---
 
-# Elastic APM
-
----
-
 ## 💡 Elastic APM이란?
 
 > 사용자 애플리케이션이 미리 구성된 대시보드를 이용해 Kibana에서 시각화를 위해 Elasticsearch로 성능 메트릭을 전송할 수 있도록 하는 도구
