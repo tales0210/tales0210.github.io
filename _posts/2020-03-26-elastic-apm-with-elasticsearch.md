@@ -215,6 +215,6 @@ curl -XGET http://localhost:9200/classes/class/_search -d '{
 
     🎇 RDB의 group by와 동일하다.
 
-## 💡 Elasticsearch 실용 예제 모음
+## 💡 Elasticsearch 가이드 북
 
-🔗 Link: [**위키북스의 Elasticsearch 예제**](https://github.com/wikibook/elasticsearch "Elasticsearch 예제 보러가기")
+🔗 Link: [**최신 Elasticsearch에 대해 잘 정리된 웹 페이지**](https://esbook.kimjmin.net "Elasticsearch 가이드 북 보러가기")
