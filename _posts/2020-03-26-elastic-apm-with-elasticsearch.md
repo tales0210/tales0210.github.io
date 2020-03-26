@@ -44,29 +44,29 @@ author: "HJ Lee"
     3) APM Server는 Elasticsearch로 데이터를 전송한다.
     4) Elasticsearch로 전송된 데이터를 Kibana에서 대시보드 형태 또는 APM UI에 맞게 시각화한다.
 
-### 🔍 5. Elastic APM의 장단점과 활용 방안
+---
 
-#### 5.1. 장점
+## 💡 ELK 스택이란?
+
+> Elasticsearch(분석,검색,저장) + Logstash(수집) + Kibana(시각화) 조합으로 Logstash가 DB 또는 CSV 등의 데이터를 Elasticseach에 수집하면 시각화 도구인 Kibana가 Elasticesearch의 데이터를 화면에 보기좋게 보여준다.
+
+### 🔍 1. ELK 스택의 장단점과 활용 방안
+
+#### 1.1. 장점
 
 - 오픈소스로 무료
 - 구조가 단순하여 여러 도메인에 범용적으로 사용하기 좋다.
 - Elasticsearch는 매우 빠르고 인덱싱 과정이 쉽다.
 - Elasticsearch의 데이터를 이용해 Kibana로 유연한 커스텀 대시보드를 쉽게 구축할 수 있다.
 
-#### 5.2. 단점
+#### 1.2. 단점
 
 - 검색엔진 특성 상 데이터가 이미 인덱싱 되어 있어서 커스터마이징, Join, 연산 등이 쉽지 않다.
 - 유료 도구들에 비해 병렬 확장(Scale-Out)에 약점이 있다.
 
-#### 5.3. 활용 방안
+#### 1.3. 활용 방안
 
-    🎇 Elastic APM을 자유롭게 활용하려면 결국은 Elasticsearch에 대한 이해도가 높아야 한다.
-
----
-
-## 💡 ELK 스택이란?
-
-> Elasticsearch(분석,검색,저장) + Logstash(수집) + Kibana(시각화) 조합으로 Logstash가 DB 또는 CSV 등의 데이터를 Elasticseach에 수집하면 시각화 도구인 Kibana가 Elasticesearch의 데이터를 화면에 보기좋게 보여준다.
+    🎇 Elastic APM이나 Elastic 스택을 자유롭게 활용하려면 결국은 Elasticsearch에 대한 이해도가 높아야 한다.
 
 ---
 
